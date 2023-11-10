@@ -19,5 +19,4 @@ jobs:
       - name: Build the hello-docker Docker image
         run: |
              docker build . --tag ghcr.io/abosaad11/grid:0.5
-             docker run ghcr.io/abosaad11/grid:0.5
              docker push ghcr.io/abosaad11/grid:0.5
