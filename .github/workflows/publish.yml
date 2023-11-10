@@ -5,6 +5,9 @@ on: [push, workflow_dispatch]
 jobs:
   publish-grid-image:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     
     steps:
       - name: login
