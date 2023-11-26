@@ -10,13 +10,13 @@ Docker image combining Jenkins  <img src="https://avatars.githubusercontent.com/
 
 I created this Docker image to combine both [Jenkins](https://github.com/jenkinsci/jenkins) <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> and [Selenium Grid](https://github.com/SeleniumHQ/docker-selenium)  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" /> into one single image. It's useful to me and I hope other people can find it useful too.
 
-## How to use
+### How to use
 ```
 sudo docker pull ghcr.io/abosaad11/grid:0.5
 sudo docker run -d -p 4444:4444 -p 1800:8080 --name=grid -it -v $HOME/grid:/var/jenkins_home ghcr.io/abosaad11/grid:0.5
 ```
 
-## Updates
+### Updates
 I do not intend to update this image. However, if you wanted to update it fork this repository and run the action. If you don't want to publish the image to the Github Container Registry and would like to build it locally follow these steps:
 - Clone the repository:
   ```
