@@ -16,11 +16,11 @@ I do not intend to update this image. However, if you wanted to update it fork t
   https://github.com/abosaad11/grid.git
   ```
 - Build the image:
-```
+  ```
 sudo docker build -t name/yourimage:version .
 Example:
 sudo docker build -t me/grid:3.4 .
-```
+  ```
 That last dot is important, do not delete it.
 - Run the image:
   ```
