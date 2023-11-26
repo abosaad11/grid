@@ -14,6 +14,7 @@ I do not intend to update this image. However, if you wanted to update it fork t
 - Clone the repository:
   ```
   git clone https://github.com/abosaad11/grid.git
+  cd grid
   ```
   
 - Build the image:
