@@ -17,7 +17,7 @@ sudo docker run -d -p 4444:4444 -p 1800:8080 --name=grid -it -v $HOME/grid:/var/
 ```
 
 ### Updates
-I do not intend to update this image. However, if you wanted to update it fork this repository and run the action. If you don't want to publish the image to the Github Container Registry and would like to build it locally follow these steps:
+I do not intend to update this image. However, if you wanted to update it fork this repository and run the action by navgating to your fork's page > `Actions` > `Create and publish a Docker image` > `Run workflow`. If you don't want to publish the image to the Github Container Registry and would like to build it locally follow these steps:
 - Clone the repository:
   ```
   git clone https://github.com/abosaad11/grid.git
