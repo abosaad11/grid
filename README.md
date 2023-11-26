@@ -23,7 +23,7 @@ I do not intend to update this image. However, if you wanted to update it fork t
   Example:
   sudo docker build -t me/grid:3.4 .
   ```
-That last dot is important, do not delete it.
+  That last dot is important, do not delete it.
 
 - Run the image:
   ```
