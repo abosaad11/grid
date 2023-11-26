@@ -6,7 +6,6 @@ I created this Docker image to combine both [Jenkins](https://github.com/jenkins
 ## How to use
 ```
 sudo docker pull ghcr.io/abosaad11/grid:0.5
-sudo docker volume create jenkinss_data
 sudo docker run -d -p 4444:4444 -p 1800:8080 --name=grid -it -v $HOME/grid:/var/jenkins_home ghcr.io/abosaad11/grid:0.5
 ```
 
