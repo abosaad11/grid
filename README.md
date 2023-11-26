@@ -29,3 +29,4 @@ I do not intend to update this image. However, if you wanted to update it fork t
   ```
   sudo docker run -d -p 4444:4444 -p 1800:8080 --name=grid -it -v $HOME/grid:/var/jenkins_home me/grid:3.4
   ```
+  Now Selenium Grid is available at `127.0.0.1:4444` and Jenkins at `127.0.0.1:1800`
