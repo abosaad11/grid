@@ -8,7 +8,7 @@
 #  grid
 Docker image combining Jenkins  <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> and Selenium Grid  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" />
 
-I created this Docker image to combine both [Jenkins](https://github.com/jenkinsci/jenkins) <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> and [Selenium Grid](https://github.com/SeleniumHQ/docker-selenium)  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" /> into one single image. It's useful to me and I hope other people can find it useful too.
+I created this Docker image to combine both [Jenkins](https://github.com/jenkinsci/jenkins) <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> and [Selenium Grid](https://github.com/SeleniumHQ/docker-selenium)  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" /> into one single DSocker image. It's useful to me and I hope other people can find it useful too.
 
 ### How to use
 ```
