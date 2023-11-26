@@ -1,18 +1,14 @@
-https://avatars.githubusercontent.com/u/107424
-
-https://avatars.githubusercontent.com/u/983927
-
 
 <p float="left">
-  <img src="https://avatars.githubusercontent.com/u/107424" width="33%" />
-  <img src="https://avatars.githubusercontent.com/u/983927" width="33%" />
+  <img src="https://avatars.githubusercontent.com/u/107424" width="10%" />
+  <img src="https://avatars.githubusercontent.com/u/983927" width="10%" />
 </p>
 
 
 #  grid
-Docker image combining Jenkins and Selenium Grid
+Docker image combining Jenkins  <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> and Selenium Grid  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" />
 
-I created this Docker image to combine both [Jenkins](https://github.com/jenkinsci/jenkins) and [Selenium Grid](https://github.com/SeleniumHQ/docker-selenium) into one single image. It's useful to me and I hope other people can find it useful too.
+I created this Docker image to combine both [Jenkins](https://github.com/jenkinsci/jenkins) <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> and [Selenium Grid](https://github.com/SeleniumHQ/docker-selenium)  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" /> into one single image. It's useful to me and I hope other people can find it useful too.
 
 ## How to use
 ```
@@ -40,4 +36,4 @@ I do not intend to update this image. However, if you wanted to update it fork t
   ```
   sudo docker run -d -p 4444:4444 -p 1800:8080 --name=grid -it -v $HOME/grid:/var/jenkins_home me/grid:3.4
   ```
-  Now Jenkins is available at `http://127.0.0.1:1800` and Selenium Grid at `http://127.0.0.1:4444`
+  Now Jenkins <img src="https://avatars.githubusercontent.com/u/107424" width="1.5%" /> is available at `http://127.0.0.1:1800` and Selenium Grid  <img src="https://avatars.githubusercontent.com/u/983927" width="1.5%" /> at `http://127.0.0.1:4444`.
